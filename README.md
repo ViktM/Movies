@@ -29,10 +29,6 @@ Add localhost as host. “sa” (system admin) as username and the password from
 
 8. I used dotnet sdk 3.0.0 - do double check what you have because if you have an older version a few libraires might not work
 
-9. In case you chose webappMVC and the comiler complaines a lot about libraries and you can include them it might be 
-because the EntityFrameworkCore SQL server is not included in general try:
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.0.0
-
 
 # References
 
